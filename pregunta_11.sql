@@ -38,3 +38,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
+SELECT YEAR, COUNT(*) AS CANT FROM (SELECT YEAR(c14) AS YEAR FROM `tbl1`) AS tabla WHERE tabla.YEAR = 2018 GROUP BY YEAR;
