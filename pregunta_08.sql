@@ -40,5 +40,5 @@
 --  3  2019  550.998571
 --
 --  >>> Escriba su codigo a partir de este punto <<<
---
-SELECT YEAR(c23) AS YEAR, avg(c21) FROM `tbl2` GROUP BY YEAR;
+-- FUNCIÓN YEAR NO EXISTE
+SELECT strftime('%Y', c23) AS YEAR, avg(c21) FROM `tbl2` GROUP BY YEAR;
