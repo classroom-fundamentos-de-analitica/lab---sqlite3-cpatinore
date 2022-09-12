@@ -40,4 +40,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- FUNCIÓN CONCAT NO EXISTE
-SELECT K0, c16 FROM `tbl1` WHERE c16 REGEXP '^'|k0;
+SELECT K0, c16 FROM `tbl1` WHERE c16 LIKE (k0+"%");

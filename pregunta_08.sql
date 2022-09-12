@@ -41,4 +41,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- FUNCIÓN YEAR NO EXISTE
-SELECT strftime('%Y', c23) AS YEAR, avg(c21) FROM `tbl2` GROUP BY YEAR;
+SELECT strftime('%Y', c23), avg(c21) FROM `tbl2` GROUP BY strftime('%Y', c23);
